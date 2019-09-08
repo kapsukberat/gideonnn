@@ -1,15 +1,57 @@
 {
-  "name": "berat",
-  "version": "1.0.0",
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "kartexbot",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
   "main": "bot.js",
   "scripts": {
-    "test": "node bot.js"
+    "start": "node bot.js"
   },
-  "author": "Berat",
-  "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.5.1"
+    "canvas": "^2.6.0",
+    "chalk": "^2.4.2",
+    "cheerio": "^0.22.0",
+    "cleverbot.io": "^1.0.4",
+    "common-tags": "^1.8.0",
+    "dblapi.js": "^2.3.0",
+    "discord.js": "^11.5.1",
+    "discord.js-commando": "^0.10.0",
+    "discord.js-minesweeper": "^1.0.5",
+    "express": "^4.17.1",
+    "ffmpeg": "^0.0.4",
+    "figlet": "^1.2.4",
+    "fortnitetracker-7days-stats": "^3.3.0",
+    "generate-password": "^1.4.1",
+    "google-tts-api": "^0.0.4",
+    "jimp": "^0.6.8",
+    "math-expression-evaluator": "^1.2.17",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.2.2",
+    "ms": "^2.1.2",
+    "node-superfetch": "^0.1.9",
+    "opusscript": "^0.0.7",
+    "parse-ms": "^2.0.0",
+    "quick.db": "^7.0.0-b22",
+    "quick.hook": "^1.5.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "speedtest-net": "^1.5.1",
+    "sqlite3": "^4.1.0",
+    "steam-provider": "^0.2.0",
+    "weather-js": "^2.0.0"
   },
-  "devDependencies": {},
-  "description": ""
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/kartex"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }
